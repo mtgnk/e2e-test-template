@@ -1,0 +1,15 @@
+{
+  "name": "e2e",
+  "version": "1.0.0",
+  "description": "end to end test for pca project",
+  "main": "index.js",
+  "scripts": {
+    "cypress:open": "cypress open",
+    "cypress:run": "cypress run --spec './cypress/integration/examples/sample.spec.js'"
+  },
+  "author": "ymitsugi",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^4.10.0"
+  }
+}
